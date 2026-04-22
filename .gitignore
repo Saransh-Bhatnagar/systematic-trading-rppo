@@ -1,0 +1,30 @@
+# Large artifacts
+tensorboard_logs/
+systematic_trading/models/
+systematic_trading/data/*.parquet
+systematic_trading/data/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.conda/
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
